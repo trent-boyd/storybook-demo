@@ -10,7 +10,7 @@ storiesOf("Welcome", module).add("to Storybook", () => (
   <Welcome showApp={linkTo("Button")} />
 ));
 
-storiesOf("Netlify", module).add("hi there", () => "Hello, Netlify");
+storiesOf("GitHub Pages", module).add("hi there", () => "Hello, GitHub");
 
 storiesOf("Button", module)
   .add("with text", () => (
